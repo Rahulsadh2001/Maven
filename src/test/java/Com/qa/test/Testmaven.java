@@ -16,6 +16,8 @@ public class Testmaven {
 		WebDriver driver = new FirefoxDriver();
 			               driver.navigate().to("http://result.rgpv.ac.in/result/programselect.aspx");
 							driver.findElement(By.xpath(".//*[@id='radlstProgram_0']")).click();
+		    driver.navigate().to("http://result.rgpv.ac.in/result/programselect.aspx");
+		
 
 	}
 	
